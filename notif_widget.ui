@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>118</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(50,50,50);
+border-radius:20px;
+</string>
+  </property>
+  <widget class="QPushButton" name="hide">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>20</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>effacer definitivement</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+font: 87 12pt &quot;Arial Black&quot;;
+color:white;
+background:rgb(152,31,31);
+border-top-left-radius:15px;border-bottom-left-radius:15px;
+border-top-right-radius:0px;border-bottom-right-radius:0px;
+}
+QPushButton:hover{
+
+background:rgb(160,39,39);
+
+}
+QPushButton:pressed{
+
+background:transparent;
+border:3px solid rgb(152,31,31);
+
+}
+QToolTip{color:white;}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Downloads/no (2).png</normaloff>../../Downloads/no (2).png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>71</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/information.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="message">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>461</width>
+     <height>87</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*border:2px solid rgb(152,31,31);*/
+border-radius:10px;
+text-align:center;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Gill Sans Ultra Bold Condensed&quot;;
+</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>hide</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>628</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

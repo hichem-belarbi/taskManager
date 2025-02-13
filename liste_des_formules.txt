@@ -1,0 +1,1 @@
+formule passage ing #(B+(M2+MR2)/2)*2+(B+(M1+MR1)/2)
